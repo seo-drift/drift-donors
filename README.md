@@ -5,8 +5,8 @@
 Выпуск выходит примерно раз в месяц, в формате Excel (.xlsx).
 
 📥 **Скачать последний выпуск:**
-- [donors_light.xlsx](https://github.com/seo-drift/drift-donors/releases/latest/download/donors_light.xlsx) — 49 колонок, ~15 МБ
-- [donors_full.xlsx](https://github.com/seo-drift/drift-donors/releases/latest/download/donors_full.xlsx) — 121 колонка, ~30 МБ
+- [donors_light.xlsx](https://github.com/seo-drift/drift-donors/releases/latest/download/donors_light.xlsx) — 49 колонок, ~17 МБ
+- [donors_full.xlsx](https://github.com/seo-drift/drift-donors/releases/latest/download/donors_full.xlsx) — 122 колонки, ~30 МБ
 
 Описание колонок и все выпуски: https://seo-drift.ru/drift-donors/table/
 
@@ -16,11 +16,11 @@
 
 | | |
 |---|---|
-| Выпуск | 07.10.2026 |
+| Выпуск | 07.10.2026 (v2 от 12.10.2026 — исправлена формула Drift Score) |
 | Доноров | 47 376 |
 | Биржи | Sape, GoGetLinks, Miralinks |
-| Light | 49 колонок, 15,3 МБ |
-| Full | 121 колонка, 29,5 МБ |
+| Light | 49 колонок, 16,6 МБ |
+| Full | 122 колонки, 30,4 МБ |
 
 Все выпуски перечислены в [Releases](https://github.com/seo-drift/drift-donors/releases).
 
@@ -53,7 +53,7 @@
 | D | слабый |
 | F | красный флаг: недоступен, истёк или заблокирован РКН |
 
-Грейд выставляется по **Drift Score** — итоговой оценке донора от 0 до 100. Она объединяет авторитетность, чистоту, индексацию статей и качество реальных размещений. Как считается Drift Score: https://seo-drift.ru/drift-donors/drift-score/
+Грейд выставляется по **Drift Score** — итоговой оценке донора от 0 до 100: A ≥ 58, B ≥ 30, C ≥ 8, D < 8. Оценка учитывает силу домена (DR, TF, ИКС, возраст, видимость — по лучшему из Яндекса и Google), индексацию статей и качество реальных размещений; спам-сигналы её понижают, а их отсутствие слабый сайт не поднимает. Как считается Drift Score: https://seo-drift.ru/drift-donors/drift-score/
 
 ## Другие способы работы с базой
 
